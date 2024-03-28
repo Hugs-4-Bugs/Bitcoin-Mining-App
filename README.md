@@ -24,28 +24,30 @@ bitcoin-mining-app/
 │   │   │   └── com/
 │   │   │       └── example/
 │   │   │           └── bitcoinmining/
+│   │   │               ├── config/            // New package for configuration classes
+│   │   │               │   └── SecurityConfig.java  // Your SecurityConfig class
 │   │   │               ├── controller/
 │   │   │               │   ├── MiningController.java
 │   │   │               │   ├── WalletController.java
-│   │   │               │   ├── UserController.java     // New
-│   │   │               │   └── TransactionController.java   // New
+│   │   │               │   ├── UserController.java
+│   │   │               │   └── TransactionController.java
 │   │   │               ├── model/
 │   │   │               │   ├── Block.java
 │   │   │               │   ├── Wallet.java
-│   │   │               │   ├── User.java       // New
-│   │   │               │   └── Transaction.java    // New
-│   │   │               ├── repository/             // New
-│   │   │               │   ├── UserRepository.java   // New
-│   │   │               │   └── TransactionRepository.java   // New
+│   │   │               │   ├── User.java
+│   │   │               │   └── Transaction.java
+│   │   │               ├── repository/
+│   │   │               │   ├── UserRepository.java
+│   │   │               │   └── TransactionRepository.java
 │   │   │               ├── service/
 │   │   │               │   ├── MiningService.java
 │   │   │               │   ├── WalletService.java
-│   │   │               │   ├── UserService.java     // New
-│   │   │               │   ├── TransactionService.java   // New
-│   │   │               │   ├── ConfigurationService.java   // New
-│   │   │               │   ├── LoggingService.java   // New
-│   │   │               │   ├── TransactionServiceImpl.java   // New
-│   │   │               │   └── UserServiceImpl.java   // New
+│   │   │               │   ├── UserService.java
+│   │   │               │   ├── TransactionService.java
+│   │   │               │   ├── ConfigurationService.java
+│   │   │               │   ├── LoggingService.java
+│   │   │               │   ├── TransactionServiceImpl.java
+│   │   │               │   └── UserServiceImpl.java
 │   │   │               └── BitcoinMiningApplication.java
 │   │   │
 │   │   └── resources/
@@ -61,10 +63,10 @@ bitcoin-mining-app/
 │                       └── service/
 │                           ├── MiningServiceTest.java
 │                           ├── WalletServiceTest.java
-│                           ├── UserServiceTest.java    // New
-│                           ├── TransactionServiceTest.java    // New
-│                           ├── ConfigurationServiceTest.java   // New
-│                           └── LoggingServiceTest.java   // New
+│                           ├── UserServiceTest.java
+│                           ├── TransactionServiceTest.java
+│                           ├── ConfigurationServiceTest.java
+│                           └── LoggingServiceTest.java
 └── pom.xml
 ```
 
