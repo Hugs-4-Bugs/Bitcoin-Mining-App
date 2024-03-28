@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bitcoin Wallet</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 50px auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        h1 {
+            text-align: center;
+        }
+
+        .wallet-balance {
+            font-size: 24px;
+            text-align: center;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Bitcoin Wallet Balance</h1>
+        <p class="wallet-balance">Balance: $<span id="walletBalance"></span></p>
+    </div>
+
+    <script>
+        // JavaScript to fetch wallet balance from server and update HTML
+        fetch('/wallet')
+            .then(response => response.text())
+            .then(balance => {
+                document.getElementById('walletBalance').textContent = balance;
+            })
+            .catch(error => console.error('Error fetching wallet balance:', error));
+    </script>
+</body>
+</html>
