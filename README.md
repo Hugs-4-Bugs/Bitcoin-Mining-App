@@ -73,7 +73,7 @@ bitcoin-mining-app/
 ## Setup
 
 ### 1. Clone the repository:
-       git clone https://github.com/Hugs-4-Bugs/BitcoinMiningApp.git
+       git clone https://github.com/Hugs-4-Bugs/Bitcoin-Mining-App.git
 
 ### 2. Navigate to the project directory:
        cd BitcoinMiningApp
