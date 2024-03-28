@@ -6,7 +6,7 @@ This project is a Java Spring Boot application for mining Bitcoin and managing r
 
 ## Features
 
-* **Bitcoin Mining**  Mine Bitcoin using the application.  
+* **Bitcoin Mining:**  Mine Bitcoin using the application.  
 * **User Accounts:** Register and manage user accounts for accessing the application.  
 * **Transaction History:** View transaction history including details of all Bitcoin transactions.  
 * **Configuration Settings:** Manage configuration settings for the mining process and application behavior.  
