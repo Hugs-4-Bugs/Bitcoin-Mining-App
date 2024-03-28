@@ -4,6 +4,7 @@
 
 This project is a Java Spring Boot application for mining Bitcoin and managing related functionalities such as user accounts, transaction history, configuration settings, logging, and audit trails.
 
+  
 ## Features
 
 * **Bitcoin Mining:**  Mine Bitcoin using the application.  
@@ -13,6 +14,8 @@ This project is a Java Spring Boot application for mining Bitcoin and managing r
 * **Logging and Audit Trails:** Log important events and actions for auditing and troubleshooting purposes.  
 
 
+  
+  
 ## Project Structure
 
 The project follows a typical Spring Boot application structure:
@@ -70,6 +73,8 @@ bitcoin-mining-app/
 └── pom.xml
 ```
 
+  
+  
 ## Setup
 
 ### 1. Clone the repository:
@@ -85,6 +90,7 @@ bitcoin-mining-app/
        mvn spring-boot:run
 
 
+   
 
 ## Usage
 
@@ -94,6 +100,7 @@ bitcoin-mining-app/
 
 
 
+  
 ## Dependencies
 
 * Spring Boot
@@ -103,6 +110,7 @@ bitcoin-mining-app/
 * Spring Boot DevTools
 
 
+  
 
 ## Contributing
 
