@@ -88,8 +88,8 @@ bitcoin-mining-app/
 
 ## Usage
 
-->  Access the application through the provided RESTful API endpoints.
-->  Use the provided controllers to interact with different features of the application.
+*  Access the application through the provided RESTful API endpoints.  
+*  Use the provided controllers to interact with different features of the application.
 
 
 
