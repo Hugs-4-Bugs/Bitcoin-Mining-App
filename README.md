@@ -32,8 +32,11 @@ bitcoin-mining-app/
 │   │   │               ├── controller/
 │   │   │               │   ├── MiningController.java
 │   │   │               │   ├── WalletController.java
-│   │   │               │   ├── UserController.java
-│   │   │               │   └── TransactionController.java
+│   │   │               │   ├── UserController.java   // Controller for user registration and login
+│   │   │               │   ├── RegistrationController.java  // Separate controller for registration
+│   │   │               │   ├── LoginController.java  // Separate controller for login
+│   │   │               │   ├── TransactionController.java
+│   │   │               │   └── HomeController.java  // Controller for home page
 │   │   │               ├── model/
 │   │   │               │   ├── Block.java
 │   │   │               │   ├── Wallet.java
@@ -56,6 +59,10 @@ bitcoin-mining-app/
 │   │   └── resources/
 │   │       ├── static/
 │   │       │   └── index.html
+│   │       └── templates/             // Folder for Thymeleaf templates
+│   │           ├── registration.html // Registration page
+│   │           ├── login.html        // Login page
+│   │           ├── home.html         // Home page
 │   │       └── application.properties
 │   │
 │   └── test/
@@ -71,6 +78,7 @@ bitcoin-mining-app/
 │                           ├── ConfigurationServiceTest.java
 │                           └── LoggingServiceTest.java
 └── pom.xml
+
 ```
 
   
