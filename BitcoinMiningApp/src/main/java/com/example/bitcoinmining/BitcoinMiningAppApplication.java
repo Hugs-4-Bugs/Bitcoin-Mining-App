@@ -11,3 +11,4 @@ public class BitcoinMiningAppApplication {
 	}
 
 }
+// this is my new code
